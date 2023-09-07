@@ -1,0 +1,610 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+header {
+    position: fixed;
+    top:0px;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+header > div {
+    display: inline-block;
+    width: 100%;
+    color:#2B4B80;
+    margin-top: 20px;
+}
+
+.topBtn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FF5C97;
+    z-index: 1;
+}
+
+.topBtn > a {
+    color: white;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-left: 18px;
+}
+
+.topBtn > a > i {
+}
+
+.logo {
+    width: 30%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu {
+    width: 50%;
+    margin-left: -4px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 110%;
+}
+
+.btn {
+    width: 19%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.button {
+    width: 40%;
+    background-color: #2B4B80;
+    border-radius: 5px;
+    color: white;
+}
+
+.button:hover {
+    background-color: pink;
+}
+
+/* Sec-1 CSS */
+
+#one {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.text > .heading {
+    font-size: 65px;
+    text-align: left;
+    color: #2B4B80;
+}
+
+.text > .para {
+    margin: 20px 0;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    color: #2B4B80;
+    width: 80%;
+
+}
+
+.text > .btn {
+    display: inline-block;
+    background-color: #FF5C97;
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 15px;
+    font-size: 20px;
+
+}
+
+.text {
+    display: inline-block;
+    width: 55%;
+    vertical-align: middle;
+}
+
+.image {
+    width: 44%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Sec-2 CSS */
+#two > .heading {
+    font-size: 60px;
+    text-transform: capitalize;
+    width: 60%;
+    margin: 100px auto;
+    text-align: center;
+    color: #2B4B80;
+
+}
+
+.main {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.main > div {
+    /* border: 1px solid; */
+    display: inline-block;
+    width: 30%;
+    margin: 0 10px;
+    color: #2B4B80;
+}
+
+.main > div:hover {
+        box-shadow: 2px 2px 2px 3px whitesmoke;
+
+}
+
+.main > div > .three {
+    display: inline-block;
+    margin: 30px auto;
+    font-size: 390%;
+    color: #FF5C97;
+}
+.main > div > h3 {
+    font-size: 25px;
+    margin: 20px;
+}
+
+.main > div > p {
+    font-size: 110%;
+    line-height: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+.main > div >.symbol {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 50px 10px;
+    color: #7B40C0;
+}
+
+.main > div > .gs {
+    vertical-align: middle;
+    display: inline-block;
+    color: #7B40C0;
+}
+
+.shadow {
+    box-shadow: 2px 2px 2px 3px whitesmoke;
+}
+
+#three {
+    width: 80%;
+    margin:200px auto;
+}
+
+#three > .image {
+    width:50%;
+}
+
+#three > .image > img {
+    width: 100%;
+
+}
+
+#three > .text {
+    width:49%;
+    color: #2B4B80;
+}
+
+#three > .text > h1 {
+    vertical-align: top;
+    font-size: 50PX;
+    color: #2B4B80;
+}
+
+#three > .text > p {
+    line-height: 30px;
+    text-align: left;
+    margin: 40px 0px;
+    color: #877B8E;
+    font-size: 114%;
+}
+
+#four {
+    width:  90%;
+    margin: 0 auto;
+}
+
+.secHeading {
+    color: #2B4B80;
+    width: 60%;
+    font-size: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#four > .container {
+    margin-top: 60px;
+    text-align: center;
+}
+
+#four > .container > div {
+    display: inline-block;
+    border: 1px whitesmoke solid;
+    border-radius: 10px;
+    width: 45%;
+    margin: 10px;
+}
+
+#four > .container > div >div > span {
+    color: #FF8FB7;
+    padding: 8px 16px;
+    font-size: 90px;
+    display: inline-block;
+    margin: 20px 30px;
+
+}
+
+#four > .container > div > div > h2 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px 0px;
+    color: #2B4B80;
+    font-size: 25px;
+    text-align: left;
+}
+
+#four > .container > div > .span {
+    display: inline-block;
+}
+
+#four > .container > div > .text {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+
+}
+
+#four > .container > div > .text > p {
+    display: inline-block;
+    color: gray;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+#four > .container > div:hover {
+    box-shadow: 2px 2px 10px 2px whitesmoke;
+}
+
+#five {
+    width:  90%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+#five > .container > div {
+    width: 30%;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 60px 5px;
+}
+
+#five > .container > div > span {
+    color: #FF8FB7;
+    font-size: 90px;
+    display: inline-block;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+
+}
+
+#five > .container > div > h2 {
+    color: #2B4B80;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+}
+
+#five > .container > div > p {
+    line-height: 40px;
+    text-align: center;
+    color: gray;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#five > .container > .shadow {
+    box-shadow: 2px 2px 10px 2px whitesmoke;
+}
+
+#five > .container > div:hover {
+    box-shadow: 2px 2px 10px 2px whitesmoke;
+}
+
+#six {
+    width:  100%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+#six > .secHeading {
+    width: 40%;
+}
+
+#six > .container {
+    text-align: center;
+    margin-top: 60px;    
+}
+
+.visit1 {
+    background-image: url("visit_1.webp");
+    width: 23%;
+    height: 300px;
+    background-size: cover ;
+    position: relative;
+    display: inline-block;
+    margin-right: 23px;
+}
+
+.visit2 {
+    background-image: url("visit_2.webp");
+    width: 23%;
+    height: 300px;
+    background-size: cover ;
+    position: relative;
+    display: inline-block;
+    margin-right: 23px;
+}
+
+.visit3 {
+    background-image: url("visit_3.webp");
+    width: 23%;
+    height: 300px;
+    background-size: cover ;
+    position: relative;
+    display: inline-block;
+    margin-right: 23px;
+}
+
+.visit4 {
+    background-image: url("visit_4.webp");
+    width: 23%;
+    height: 300px;
+    background-size: cover ;
+    position: relative;
+    display: inline-block;
+}
+
+#six > .container > div > div {
+    /* padding: 20px 20px; */
+    background-color: white;
+    width: 70%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px;
+}
+
+#six > .container > div > div > a {
+    text-decoration: none;
+    color: #2B4B80;
+    font-size: 30px;
+    padding: none;
+}
+
+#six > .container > div > div > p {
+    padding: 8px 16px;
+}
+
+#seven {
+    width: 90%;
+    margin: 200px auto;
+}
+
+#seven > h1 {
+    color: #2B4B80;
+    font-size: 60px;
+    text-align: center;
+    margin: 20px auto;
+    width: 40%;
+}
+
+/* #seven > .text {
+    width: 70%;
+    text-align: center;
+    background-color: #2B4B80;
+} */
+
+#seven > p {
+    color: gray;
+    text-align: center;
+    margin: 60px auto;
+    width: 85%; 
+    font-size: 25px;
+    line-height: 30px;
+}
+
+#seven > div {
+    width: 20%;
+    margin: 0 auto;
+}
+
+#seven > div > img {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#seven > div > div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#seven > div > h2 {
+    color: #2B4B80;
+}
+
+#seven > div >  div > p {
+    color: gray;
+    margin-top: 10px;
+    font-size: 120%;
+}
+
+#eight {
+    margin: 200px auto;
+}
+
+#eight > h1 {
+    color: #2B4B80;
+    font-size: 60px;
+    text-align: center;
+    margin: 20px auto;
+    width: 50%;
+}
+
+.tip {
+    width: 32%;
+    display: inline-block;
+    margin-left: 10px;
+
+}
+
+.tip > img {
+    width: 100%;
+}
+
+.tip > a {
+    text-decoration: none;
+    color: #2B4B80;
+    font-size: 30px;
+    padding: 0;
+    width: 80%;
+    margin: 20px 0;
+}
+
+.tip > .continue {
+    font-size: 110%;
+    padding: 0;
+    margin: 10px 0px;
+}
+
+.tip > .date {
+    color: #ff5c97;
+    margin: 20px 0px;
+}
+
+#nine {
+    background-color: #ff5c97;
+    width: 90%;
+    border-radius: 10px;
+    margin:0 auto;
+    height: 300px;
+    color: white;
+    position: relative;
+}
+
+#nine > h1 {
+    font-size: 60px;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+
+}
+
+#nine > p {
+    display: inline-block;
+    padding-left: 40px;
+    width: 60%;
+    font-size: 120%;
+    line-height: 30px;
+
+}
+
+
+#nine > a {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: #2B4B80;
+    font-size: 20px;
+    position: absolute;
+    right: 40px;
+}
+
+#ten{
+    width: 100%;
+    background-image: url("Capture.PNG");
+    padding-left: 100px;
+}
+
+#ten > .address {
+    padding: 100px 20px;
+    width: 25%; 
+    font-size: 110%;
+    color: gray;
+    display: inline-block;
+
+}
+
+#ten > .address > img {
+    margin-bottom: 50px;
+}
+
+#ten > .address > p {
+    padding: 10px;
+    line-height: 25px;
+}
+
+#ten > .address > i {
+    padding: 10px;
+    margin: 20px 5px;
+    background-color: whitesmoke;
+
+}
+
+#ten > .address > i:hover {
+    background-color: #FF5C97;
+}
+
+#ten > .links {
+    width: 20%;
+    display: inline-block;
+    margin: 100px 0px;
+    vertical-align: top;
+}
+
+#ten > .links > h3 {
+    color:#2B4B80;
+    font-size: 25px;
+    padding: 0px 16px;
+    margin-bottom: 50px;
+}
+
+#ten > .links > a {
+    display: block;
+    color: gray;
+    text-decoration: none;
+    font-size: 110%;
+}
+
+#ten > .links > a:hover {
+    color:#ff5c97;
+}
+
+#ten > p {
+    color: gray;
+    font-size: 110%;
+    margin: 50px auto;
+    text-align: center;
+}

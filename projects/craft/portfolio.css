@@ -1,0 +1,490 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+.one {
+    z-index: 1;
+    background-size: contain;
+    background-position: center ;
+    background: linear-gradient(to top, #0d0d0e7c, #100c141f), url(https://preview.colorlib.com/theme/craft/images/hero_2.jpg.webp);
+    width: 100%;
+    height: 750px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+nav {
+    width: 95%;
+    display: flex;
+    padding: 30px 0;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100%;
+}
+
+.logo > a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.navBar {
+    width: 100%;
+    display: flex;
+   justify-content: space-evenly;
+   vertical-align: center;
+}
+
+.navBar > a {
+    color: #ffffffc7;
+    font-size: 18px;
+    transition: font-size 0.2s;
+    padding: 10px 0px;
+}
+
+.navBar > a:hover {
+    font-size: 22px;
+    color: white;
+}
+
+.search {
+    width: 100%;
+    text-align: right;
+    color: #FFFFFF;
+
+}
+
+.search > div {
+    display: inline-block;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.search > div > input {
+    border: none;
+    color: #FFFFFF;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 15px;
+    
+}
+
+.one > .contant {
+    color: #FFFFFF;
+    font-size: 300%;
+    width: 70%;
+    position: absolute;
+    top: 220px;
+    left: 15%;
+    text-align: center;
+   animation-name: fadeInUp;
+   animation-duration: 1.4s;
+   animation-fill-mode: both;
+   animation-delay: 0.6s;
+}
+.one > .contant > h1 {
+    margin:0;
+}
+.one > .contant > a,span{
+    color: white;
+    font-size: 20px;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0);
+        opacity: 0;
+        
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+.three {
+    width: 100%;
+    height:1500px;
+    background-color: #282626;
+    text-align: center;
+    position: relative;
+}
+
+.three > p {
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.netflix > img {
+    height: 250px;
+    width: 100%;
+    
+}
+
+
+.netflix, .seos {
+    background-color: #010101;
+    height: 700px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    /* margin-right: 20px; */
+    align-items: center; 
+}
+
+.burger, .br {
+    height:auto;
+    background-color: #010101;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 400px;
+    width: 40%;
+}
+
+.burger > img {
+    height: 300px;
+    width: 100%;
+    z-index: 1;
+}
+
+.br > span {
+    font-size: 100px;
+    color: white;
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif
+}
+.seos > i {
+    color: white;
+    font-size: 200px;
+}
+
+.absolute {
+    position: absolute;
+}
+.netflix {
+    top:140px;
+    left: 8%;
+}
+
+.burger {
+    top: 140px;
+    right: 8%;
+}
+
+.br {
+    top: 880px;
+    left: 8%;
+}
+
+.seos {
+    top: 580px;
+    right: 8%;
+}
+
+.three > div > a {
+    opacity: 0;
+    z-index: 4;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: background-color .4s;
+    color: white;
+    font-size: 25px;    
+    /* padding-top: 150px; */
+    /* box-sizing: border-box; */
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.three > div > a:hover {
+    background-color:rgba(0, 0, 0, 0.658);
+    opacity: 1;
+    animation-name: fadeInUp;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.three > div > a > span {
+    display: block;
+    color: gray;
+}
+
+.three > a {
+    color: white;
+    position: absolute;
+    bottom: 80px;
+    left: 40%;
+    border: 2px solid white;
+    padding: 20px;
+    letter-spacing: 5px;
+    font-size: 15px;
+    transition: background-color .4s;
+    font-weight: bolder;
+}
+
+.three > a:hover {
+    color: black;
+    background-color: white;
+}
+
+
+.five {
+    background-color: #F8F9FA;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.five > p {
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 80px 0;
+}
+
+.five > .left, .right {
+    width: 35%;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding: 20px;
+    position: relative;
+}
+.five > .left {
+    margin-right: 20px;
+}
+.five > .right {
+    margin-left: 20px;
+}
+.profilePic {
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.five > div > div > .name {
+    vertical-align: top;
+    font-size: 20px;
+    margin: 0;
+
+}
+.five > div > div {
+    display: inline-block;
+    /* padding-bottom: 30px; */
+    vertical-align: top;
+    margin-left: 5px;
+}
+.client {
+    font-size: 15px;
+    color:#a6a6a6;
+    margin-left: 6px;
+}
+.five > div > p {
+    color: #2e2d2d;
+    /* word-spacing: 4px; */
+    line-height: 30px;
+}
+.five > .i > a > i{
+    font-size: 40px;
+    color: #575656;
+    margin:60px 10px;
+}
+.border {
+    border: 10px solid white;
+}
+.six {
+    width: 100%;
+    background-color: #20C997;
+    color: white;
+    text-align: center;
+}
+.six > .heading {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 50px;
+}
+
+.six  > .text {
+    width: 42%;
+    text-align: center;
+    margin: 10px auto;
+    line-height: 30px;
+}
+.six  > .button {
+    padding: 15px 10px;
+    border: 2px solid white;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 4px;
+    text-align: center;
+    font-size: 15px;
+    margin: 50px;    
+    display: inline-block;
+    transition: background-color .2s;
+
+}
+.six  > .button:hover {
+    background-color: white;
+    color: black;
+}
+.seven {
+    width: 100%;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+}
+.seven > div {
+    width: 26%;
+    margin: 100px 0px 100px 10%;
+}
+.seven > div > .heading {
+    font-size: 15px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: white;
+    margin: 30px 0px;
+}
+.seven > .about > .text {
+    color:  rgba(255, 255, 255, 0.5);
+    line-height: 25px;
+}
+.fa-brands {
+    color:  rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(66, 66, 66, 0.849);
+    padding: 6px;
+    border-radius: 50%;
+    font-size: 18px;
+    margin: 30px 0px;
+    transition: background-color .4;
+}
+.fa-brands:hover {
+    background-color: white;
+    color: black;
+} 
+.seven > .contact > span {
+    color:  rgba(255, 255, 255, 0.5);
+}
+.seven > .contact > .text {
+    color: white;
+    margin-top:4px;
+}
+.seven > .links > a {
+    color: rgba(160, 158, 158, 0.986);
+    text-decoration: underline;
+    display: block;
+    margin: 20px 0;
+}
+.seven > div {
+    width: 90%;
+}
+.hamburger > span {
+    width: 30px;
+    height: 5px;
+    display: block;
+    background-color: white;
+    margin-bottom: 5px;
+    display: none;
+    border-radius: 2px;
+}
+@media screen and (max-width: 1200px) {
+    .netflix, .br {
+        box-sizing: border-box;
+        padding-right: 20px;
+    }
+    .br {
+        top: 860px;
+    }
+
+}
+@media screen and (max-width: 1025px) {
+    .three > a {
+        left: 35%;
+    }
+    .navBar, .search {
+        display: none;
+    }
+    .hamburger > span {
+        display: block;
+        margin-right: 10px;
+    }
+    .three > div {
+        display: flex;
+        flex-direction: column;
+        position: static;
+        width: 80%;
+        margin: 20px auto;
+    }
+    .three {
+        height: 2600px;
+        position: relative;
+    }
+    .three > a {
+        margin: 0 auto;
+    }
+    .seven  {
+        display: block;
+    }
+    .five > .left {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .five > .right {
+        display: none;
+    }
+    .three > .netflix > a{
+       width: 65%;
+       height: 650px;
+
+    }
+    .three > .burger > a {
+        width: 77%;
+        height: 400px;
+    }
+    .three > .br > a {
+        width: 59%;
+        height: 350px;
+    }
+    .three > .seos > a {
+        width: 78%;
+        height: 700px;
+    }
+
+}
+@media screen and (max-width: 769px) {
+    .one > .contant > h1 {
+        font-size: 150%;
+    }
+  
+}
+@media screen and (max-width: 481px) {
+    .one > .contant > h1 {
+        font-size: 100%;
+    }
+    .three > a {
+        margin-left: -50px;
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 320px) {
+    
+}

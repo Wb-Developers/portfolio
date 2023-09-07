@@ -1,0 +1,427 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+.one {
+    z-index: 1;
+    background-size: contain;
+    background-position: center ;
+    background: linear-gradient(to top, #0d0d0e7c, #100c141f), url(https://preview.colorlib.com/theme/craft/images/hero_2.jpg.webp);
+    width: 100%;
+    height: 750px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+nav {
+    width: 95%;
+    display: flex;
+    padding: 30px 0px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100%;
+}
+
+.logo > a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.navBar {
+    width: 100%;
+    display: flex;
+   justify-content: space-evenly;
+   vertical-align: center;
+}
+
+.navBar > a {
+    color: #ffffffc7;
+    font-size: 18px;
+    transition: font-size 0.2s;
+    padding: 10px 0px;
+}
+
+.navBar > a:hover {
+    font-size: 22px;
+    color: white;
+}
+
+.search {
+    width: 100%;
+    text-align: right;
+    color: #FFFFFF;
+
+}
+
+.search > div {
+    display: inline-block;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.search > div > input {
+    border: none;
+    color: #FFFFFF;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+.one > .contant {
+    color: #FFFFFF;
+    font-size: 55px;
+    width: 60%;
+    position: absolute;
+    top: 220px;
+    left: 23%;
+    text-align: center;
+   animation-name: fadeInUp;
+   animation-duration: 1.4s;
+   animation-fill-mode: both;
+   animation-delay: 0.6s;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0);
+        opacity: 0;
+        
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.one > .contant > a {
+    color: white;
+    font-size: 20px;
+
+}
+
+.one > .contant > span {
+    font-size: 20px;
+}
+.two {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+    text-align: left;
+}
+
+.two > .contant {
+    width: 31%;
+    height: 600;
+    margin-right: 50px;
+}
+
+.downBorder {
+    width: 100%;
+    font-size: 18px;
+    color: #6c757d;
+    padding: 20px 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.downBorder > span {
+    display: block;
+
+}
+
+.downBorder > .divider {
+    width: 70px;
+    height: 6px;
+    background-color: black;
+    position: relative;
+    top: 20px;
+    transform: translatex(-50%);
+}
+
+.para > p:nth-child(1) {
+    font-size: 30px;
+    line-height: 40px;
+    word-spacing: 4px;
+}
+
+.para > p:nth-child(1) > span {
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.para > p:nth-child(2), p:nth-child(3) {
+    color:#6c757d;
+    line-height: 30px;
+}
+
+.para > a {
+    padding: 10px 16px;
+    border: 3px solid black;
+    color: black;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin-top: 40px;
+    transition: background-color 0.2s;
+}
+
+.para > a:hover {
+    background-color: black;
+    color: white;
+}
+
+.two > .image > img {
+    width: 100%;
+    height: 600px;
+    box-shadow: 10px 10px #EEEEEE;
+
+}
+.border {
+    border: 10px solid white;
+    display: inline-block;
+}
+.three {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+    text-align: left;
+}
+.three > .contant {
+    width: 31%;
+    height: 470px;
+    margin-right: 50px;
+}
+.three > .image {
+    height: 450px;
+}
+.three > .image > img {
+    height: 400px;
+    width: 100%;
+    box-shadow: 10px 10px #EEEEEE;
+}
+.four {
+    width: 100%;
+    margin-bottom: 150px;
+}
+.four > h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+}
+.four > h2 > span {
+    font-weight: bolder;
+}
+.four > p  {
+    width: 57%;
+    color:#6c757d;
+    font-size: 19px;
+    line-height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.four > div {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+.four > div > div {
+    width: 30%;
+    text-align: center;
+}
+.four > div > div > a > img {
+    height: 300px;
+    width: 100%;
+}
+.four > div > div > a > img:hover {
+    animation-name: fadeInUp;  
+    animation-timing-function: linear;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,10px,0);
+        opacity: 0;
+        
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+.four > div > div > p {
+    width: 75%;
+    margin: 0 auto;
+}
+.five {
+    width: 100%;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+}
+.five > div {
+    width: 26%;
+    margin: 100px 0px 100px 80px;
+}
+.five > div > .heading {
+    font-size: 15px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: white;
+    margin: 30px 0px;
+}
+.five > .about > .text {
+    color:  rgba(255, 255, 255, 0.5);
+    line-height: 25px;
+}
+.fa-brands {
+    color:  rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(66, 66, 66, 0.849);
+    padding: 6px;
+    border-radius: 50%;
+    font-size: 18px;
+    margin: 30px 0px;
+    transition: background-color .4;
+}
+.fa-brands:hover {
+    background-color: white;
+    color: black;
+} 
+.five > .contact > span {
+    color:  rgba(255, 255, 255, 0.5);
+}
+.five > .contact > .text {
+    color: white;
+    margin-top:4px;
+}
+.five > .links > a {
+    color: rgba(160, 158, 158, 0.986);
+    text-decoration: underline;
+    display: block;
+    margin: 20px 0;
+}
+.hamburger > span {
+    width: 30px;
+    height: 5px;
+    display: block;
+    background-color: white;
+    margin-bottom: 5px;
+    display: none;
+    border-radius: 2px;
+}
+.one > .contant > h1 {
+    font-size: 150%;
+}
+@media screen and (max-width: 1200px) {
+    .netflix, .br {
+        box-sizing: border-box;
+        padding-right: 20px;
+    }
+    .br {
+        top: 860px;
+    }
+
+}
+@media screen and (max-width: 1025px) {
+    .navBar, .search {
+        display: none;
+    }
+    .hamburger > span {
+        display: block;
+        margin-right: 10px;
+    }
+    .five  {
+        display: block;
+    }
+    .one > .contant > h1 {
+        font-size: 95%;
+    }
+    .two > .contant{
+        width: 50%;
+        margin-left: 10%;
+    }
+    .two > .image{
+        width: 35%;
+        height: 600px
+    }
+    .two > .image > img {
+        height: 400px;
+    }
+    .three > .image {
+        width: 45%;
+        height: 400px
+    }
+    .three > .image > img {
+        height: 400px;
+
+    }
+    .five > .about {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 769px) {
+    .one > .contant > h1 {
+        font-size: 70%;
+    }
+    .two > .image {
+        display: none;
+    }
+    .two > .contant {
+        width: 80%;
+        height: 550px;
+    }
+    .three > .image {
+        display: none;
+    }
+    .three > .contant {
+        width: 80%;
+        margin: 0 auto;
+        height: 400px;
+    }
+    .five > div {
+        width: 80%;
+    }
+   
+    
+}
+@media screen and (max-width: 481px) {
+    .one > .contant > h1 {
+        font-size: 40%;
+    }
+    .four > div {
+        display: block;
+    }
+    .four > div > div {
+        width: 100%;
+        margin-bottom: 40px;
+
+    }  
+} 
+@media screen and (max-width: 320px) {
+    .one > .contant > h1 {
+        font-size: 35%;
+    }
+}

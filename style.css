@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(39, 39, 39));
+  font-family: 'Raleway', sans-serif;
+}
+
+.design {
+  display: flex;
+  flex-direction: column;
+}
+
+.line {
+  height: 2px;
+}
+
+.v {
+  /* rotate: 90deg; */
+  display: block;
+  position: fixed;
+  margin: 5px;
+  left: 5%;
+  top: 0;
+  width: 2px;
+  height: 650px;
+  animation: height 2s linear 1;
+  background-image: linear-gradient(to bottom, #fff, #131313ec);
+
+}
+
+.h {
+  display: block;
+  margin-top: 50px;
+  animation: width 2s linear 1;
+  background-image: linear-gradient(to right, #fff, #131313ec);
+}
+
+@keyframes width {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes height {
+  from {
+    height: 0;
+  }
+
+  to {
+    height: 100%;
+  }
+}
+
+.main {
+  color: white;
+  width: 28%;
+  margin: 0 auto;
+  display: flex;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  flex-direction: column;
+  vertical-align: center;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  /* background-color: yellow; */
+}
+
+.main>p {
+  /* width: 40%; */
+  margin: 0 auto;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 4px;
+  word-spacing: 8px;
+  text-transform: uppercase;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid white;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+    typing 1.5s steps(40, end),
+    blink-caret .35s step-end infinite;
+}
+
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 70%
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: white;
+  }
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  border: 2px solid black;
+  background-color: black;
+  padding: 20px 10px;
+  margin-top: 10px;
+  border-radius: 10%;
+  display: inline-block;
+}
+
+.box-1 {
+  text-align: center;
+}
+
+.btn-one {
+  color: #FFF;
+  transition: all 0.3s;
+  position: relative;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 20px;
+  color: white;
+  letter-spacing: 6px;
+  /* border-radius: 4px; */
+  /* background-image: linear-gradient(to right, #525151, #202020); */
+}
+
+.btn-one span {
+  transition: all 0.3s;
+}
+
+.btn-one::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: rgba(255, 255, 255, 0.5);
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+  transform: scale(0.1, 1);
+}
+
+.btn-one:hover span {
+  letter-spacing: 2px;
+}
+
+.btn-one:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+.btn-one::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-one:hover::after {
+  opacity: 0;
+  transform: scale(0.1, 1);
+}

@@ -1,0 +1,354 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+.one {
+    z-index: 1;
+    background-size: contain;
+    background-position: center ;
+    background: linear-gradient(to top, #0d0d0e7c, #100c141f), url(https://preview.colorlib.com/theme/craft/images/hero_2.jpg.webp);
+    width: 100%;
+    height: 750px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+nav {
+    width: 95%;
+    display: flex;
+    padding: 30px 0;
+    justify-content: center;
+    margin: 0 auto;
+}
+nav > div > div > input {
+    outline-color: red;
+    outline: #282626;
+}
+
+.logo {
+    width: 100%;
+}
+
+.logo > a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.navBar {
+    width: 100%;
+    display: flex;
+   justify-content: space-evenly;
+   vertical-align: center;
+}
+
+.navBar > a {
+    color: #ffffffc7;
+    font-size: 18px;
+    transition: font-size 0.2s;
+    padding: 10px 0px;
+}
+
+.navBar > a:hover {
+    font-size: 22px;
+    color: white;
+}
+
+.search {
+    width: 100%;
+    text-align: right;
+    color: #FFFFFF;
+
+}
+
+.search > div {
+    display: inline-block;
+    border-bottom: 1px solid #FFFFFF;
+}
+.search > div > input {
+    border: none;
+    color: #FFFFFF;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+.one > .contant {
+    color: #FFFFFF;
+    font-size: 300%;
+    width: 70%;
+    position: absolute;
+    top: 220px;
+    left: 15%;
+    text-align: center;
+   animation-name: fadeInUp;
+   animation-duration: 1.4s;
+   animation-fill-mode: both;
+   animation-delay: 0.6s;
+}
+.one > .contant > h1 {
+    margin:0;
+}
+.one > .contant > a,span{
+    color: white;
+    font-size: 20px;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0);
+        opacity: 0;
+        
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+.two {
+    width: 100%;
+    display: flex;
+    margin: 50px 0;
+    justify-content: center;
+}
+.two > .left {
+    width: 50%;
+    height: 600px;
+}
+.name {
+   width: 30%; 
+   display: inline-block;
+   margin-left: 10%;
+}
+label{
+    display: block;
+    color: #6c757d;
+    margin: 10px 0;
+    margin-top: 20px;
+}
+.name > input {
+    padding: 10px 20px;
+    width: 100%;
+    outline: 2px solid #CED4DA; 
+    border: none;
+    transition: outline .2s;
+}
+.phone > input {
+    padding: 10px 20px;
+    width: 100%;
+    outline: 2px solid #CED4DA; 
+    border: none;
+    transition: outline .2s;
+}
+.phone {
+    margin-left: 12%;
+    width: 30%; 
+   display: inline-block;
+}
+.email, .message {
+    width: 80%;
+    margin: 0 auto;
+}
+.email > input {
+    padding: 10px 20px;
+    width: 92%;
+    outline: 2px solid #CED4DA; 
+    border: none;
+    transition: outline .2s;
+}
+input:focus {
+    outline: 2px  solid #20c997;
+}
+.message > textarea {
+    padding: 10px 20px;
+    outline: 2px solid #CED4DA; 
+    width: 92%;
+    border: none;
+    height: 200px;
+    transition: outline .2s;
+}
+.message > textarea:focus {
+    outline: 2px  solid #20c997;
+}
+.two > .left > .btn {
+    letter-spacing: 3px;
+    font-size: 13px;
+    padding: 20px 25px;
+    background-color: #20c997;
+    color: white;
+    font-weight: bolder;
+    border-radius: 3px;
+    margin: 30px 10%;
+    display: inline-block;
+    opacity: 1;
+    transition: opacity .2s;
+}
+.two > .left > .btn:hover {
+    opacity: .8;
+}
+.two > .right {
+    width: 40%;
+
+}
+
+.right > div {
+    display: flex;
+    width: 70%;
+    margin: 40px;
+}
+.right > div > .i {
+    height: 20px;
+    width: 5%;
+    color: #20c997;
+    margin-top: 5px;
+}
+.right > div > .info {
+    color: black;
+    margin-left: 40px;
+    line-height: 30px;
+}
+.i > i {
+    font-size: 30px;
+}
+.absolute {
+    position: absolute;
+}
+
+.border {
+    border: 10px solid white;
+}
+.three {
+    width: 100%;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+}
+.three > div {
+    width: 26%;
+    margin: 100px 0px 100px 10%;
+}
+.three > div > .heading {
+    font-size: 15px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: white;
+    margin: 30px 0px;
+}
+.three > .about > .text {
+    color:  rgba(255, 255, 255, 0.5);
+    line-height: 25px;
+}
+.fa-brands {
+    color:  rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(66, 66, 66, 0.849);
+    padding: 6px;
+    border-radius: 50%;
+    font-size: 18px;
+    margin: 30px 0px;
+    transition: background-color .4;
+}
+.fa-brands:hover {
+    background-color: white;
+    color: black;
+} 
+.three > .contact > span {
+    color:  rgba(255, 255, 255, 0.5);
+}
+.three > .contact > .text {
+    color: white;
+    margin-top:4px;
+}
+.three > .links > a {
+    color: rgba(160, 158, 158, 0.986);
+    text-decoration: underline;
+    display: block;
+    margin: 20px 0;
+}
+.three > div {
+    width: 90%;
+}
+.hamburger > span {
+    width: 30px;
+    height: 5px;
+    display: block;
+    background-color: white;
+    margin-bottom: 5px;
+    display: none;
+    border-radius: 2px;
+}
+@media screen and (max-width: 1200px) {
+    .netflix, .br {
+        box-sizing: border-box;
+        padding-right: 20px;
+    }
+    .br {
+        top: 860px;
+    }
+
+}
+@media screen and (max-width: 1025px) {
+    .navBar, .search {
+        display: none;
+    }
+    .hamburger > span {
+        display: block;
+        margin-right: 10px;
+    }
+    .three  {
+        display: block;
+    }
+    .five > .left {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .five > .right {
+        display: none;
+    }
+
+}
+@media screen and (max-width: 769px) {
+    .one > .contant > h1 {
+        font-size: 150%;
+    }
+    .two {
+        display: block;
+        width: 100%;
+    }
+    .two > .left {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .two > .right {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .two > .left > .btn {
+        margin-left: 30%;
+    }
+  
+}
+@media screen and (max-width: 481px) {
+    .one > .contant > h1 {
+        font-size: 100%;
+    }
+    .two > .left > .btn {
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width: 320px) {
+    
+}
