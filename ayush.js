@@ -75,11 +75,5 @@ const removeMenu = () => {
     return;
 }
 
-// img content 
-// showContent = () => {
-//     document.querySelector('.second .image').classList.toggle('ImgBg');
-//     document.querySelector('.second .content').classList.toggle('block');
-//     document.querySelector('.second h1').classList.toggle('block');
-
-//     return;
-// }
+// gsap animations
+gsap.registerPlugin(ScrollTrigger);
