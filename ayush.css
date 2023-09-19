@@ -224,6 +224,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     z-index: 8;
+    transition: .3s ease-in-out;
 }
 
 .showMenu {
