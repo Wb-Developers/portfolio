@@ -78,46 +78,31 @@ body {
 }
 
 .main>p {
-  /* width: 40%; */
-  margin: 0 auto;
-  font-size: 60px;
-  text-align: center;
-  letter-spacing: 4px;
-  word-spacing: 8px;
-  text-transform: uppercase;
-  overflow: hidden;
-  /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid white;
+ overflow: hidden;
   white-space: nowrap;
   margin: 0 auto;
-  letter-spacing: .15em;
-  animation:
-    typing 1.5s steps(40, end),
-    blink-caret .35s step-end infinite;
+  border-right: 5px solid #fff;
+  letter-spacing: 2px;
+  animation: textWrite 1.5s steps(40, end),
+  blink_cart .75s step-end infinite;
 }
 
 
-/* The typing effect */
-@keyframes typing {
-  from {
-    width: 0
-  }
 
-  to {
-    width: 70%
+@keyframes textWrite {
+  from{
+    width: 0;
+  }
+  to{
+    width: 100%;
   }
 }
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-
-  from,
-  to {
+@keyframes blink_cart {
+  from,to{
     border-color: transparent;
   }
-
   50% {
-    border-color: white;
+    border-color: #fff;
   }
 }
 
